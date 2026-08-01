@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 pydantic
 sqlalchemy
+=======
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+>>>>>>> 7ae12aa67de2c0846023e86e7626e5871739ecbd
