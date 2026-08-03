@@ -1,3 +1,4 @@
+BASE_URL = "https://support-ticket-classifier-2-jj14.onrender.com"
 import streamlit as st
 import requests
 
