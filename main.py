@@ -3,6 +3,11 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+# Homepage route
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the Support Ticket Classifier API. Use /tickets endpoints."}
+
 tickets = {}
 ticket_counter = 0
 
