@@ -3,7 +3,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# In-memory storage for tickets
 tickets = {}
 ticket_counter = 0
 
