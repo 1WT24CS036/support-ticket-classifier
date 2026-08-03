@@ -1,5 +1,2 @@
-fastapi
-uvicorn
-pydantic
-sqlalchemy
-databases
+streamlit
+requests
