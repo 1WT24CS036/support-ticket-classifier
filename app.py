@@ -1,3 +1,5 @@
+import streamlit as st
+import requests
 # Sidebar
 st.sidebar.title("Navigation")
 st.sidebar.write("Choose an action:")
