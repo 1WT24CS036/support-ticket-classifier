@@ -1,6 +1,14 @@
 import streamlit as st
 import requests
 
+# Base URL for backend API
+BASE_URL = "https://support-ticket-classifier-1-4hcp.onrender.com"
+
+st.title("Support Ticket Classifier")
+st.write("Submit, view, update, delete tickets here.")
+import streamlit as st
+import requests
+
 BASE_URL = "https://support-ticket-classifier-1-4hcp.onrender.com"
 
 st.title("Support Ticket Classifier")
