@@ -1,3 +1,27 @@
+# Sidebar
+st.sidebar.title("Navigation")
+st.sidebar.write("Choose an action:")
+st.sidebar.button("Submit Ticket")
+st.sidebar.button("View Tickets")
+st.sidebar.button("Update Ticket")
+st.sidebar.button("Delete Ticket")
+
+# Custom CSS
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f8ff; /* light blue background */
+    }
+    .stButton>button {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 8px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 import streamlit as st
 import requests
 
